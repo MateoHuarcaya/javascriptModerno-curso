@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <style>
+        .caja {
+            padding: 10px;
+            background: #eee;
+        }
+
+        .activo {
+            background: #4caf50;
+            color: white;
+        }
+
+        .oculto {
+            display: none;
+        }
+    </style>
+
+    <!-- Parte 1 -->
+    <h1 id="titulo">Bienvenido</h1>
+    <p class="descripcion">Esta es una descripción.</p>
+    <ul>
+        <li class="item">Manzana</li>
+        <li class="item">Banana</li>
+        <li class="item">Naranja</li>
+    </ul>
+
+    <!-- Parte 2 -->
+    <h2 id="saludo">Hola mundo</h2>
+    <p id="estado">Sin estado</p>
+    <div id="caja" class="caja">Soy una caja</div>
+
+    <!-- Parte 3 -->
+    <ul id="productos">
+        <li data-precio="100">Zapatos</li>
+        <li data-precio="50">Gorra</li>
+        <li data-precio="200">Chaqueta</li>
+        <li data-precio="30">Calcetines</li>
+    </ul>
+    <p id="total">Total: $0</p>
+
+    
+    <script src="tema1.js"></script>
+</body>
+
+</html>
